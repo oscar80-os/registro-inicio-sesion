@@ -8,7 +8,7 @@ $password = $_POST['password'];
 
 // Lógica de autenticación
 //Se compara el usuario y la contraseña ingresados con los valores esperados ('usuario' y 'contrasena' en este caso). Si ambos coinciden, se crea un array llamado $response con el campo 'success' establecido en true y un mensaje de autenticación satisfactoria. Si no coinciden, se crea el mismo array $response, pero con 'success' establecido en false y un mensaje de error en la autenticación.
-if ($user === 'usuario' && $password === 'contrasena') {
+if ($user === 'ligia' && $password === '8956') {
     // Autenticación exitosa
     $response = array(
         'success' => true,
